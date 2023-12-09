@@ -1,0 +1,32 @@
+.vide-grid{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width:1fr 1fr 1fr 1fr ;
+}
+.thumbnail img{
+    width:95%;
+    border-radius: 20px;
+    height: 500px;
+    margin-bottom: 10px;
+    
+}
+.tit{
+    font-family: Roboto, arial;
+    font-size:17px;
+    font-weight: 700;
+    margin-bottom: 5px; 
+}
+.titl{
+    font-family: Roboto, arial;
+    font-size:17px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    white-space: nowrap;
+}
+.stat{
+    font-family: Roboto, arial;
+    font-size:14px;
+    font-weight: 500;
+    color:rgb(70, 68, 68);
+}

@@ -1,0 +1,50 @@
+.shot-header{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1fr 1fr;
+    margin-bottom: 30px;
+}
+
+.shot-icon img{
+    height:36px;
+    margin-bottom: -10px;
+}
+.title{
+    font-size: 20px;
+    font-weight:700;
+    font-family: Roboto,arial;
+}
+.x img{
+    height:25px;
+    width: 25px;
+    border-radius: 25px;
+    padding: 8px 8px 8px 8px;
+    cursor: pointer;
+}
+.x{
+    position: relative;
+}
+.x:hover{
+    background-color: rgb(226, 223, 223);
+   
+    
+}
+.toolber{
+    position: absolute;
+    left:-125px;
+    top:8px;
+    border-radius: 4px;
+    background-color: rgb(131, 130, 130);
+    color: white;
+    padding: 8px 12px 8px 12px;
+    transition:  opacity 0.15s;
+    pointer-events: none;
+    font-size: 15px;
+    opacity: 0;
+
+}
+.x:hover .toolber{
+    opacity:1;
+}
